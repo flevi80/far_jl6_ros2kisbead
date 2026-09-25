@@ -1,4 +1,4 @@
-# `ros2_cpp_template` package
+# `far_jl6_kisbead` package
 ROS 2 C++ package.  [![Static Badge](https://img.shields.io/badge/ROS_2-Humble-34aec5)](https://docs.ros.org/en/humble/)
 ## Packages and build
 
@@ -9,7 +9,7 @@ It is assumed that the workspace is `~/ros2_ws/`.
 cd ~/ros2_ws/src
 ```
 ``` r
-git clone https://github.com/sze-info/ros2_cpp_template
+git clone https://github.com/flevi80/far_jl6_ros2kisbead
 ```
 
 ### Build ROS 2 packages
@@ -17,7 +17,7 @@ git clone https://github.com/sze-info/ros2_cpp_template
 cd ~/ros2_ws
 ```
 ``` r
-colcon build --packages-select ros2_cpp_template --symlink-install
+colcon build --packages-select far_jl6_ros2kisbead --symlink-install
 ```
 
 <details>
@@ -29,12 +29,12 @@ source ~/ros2_ws/install/setup.bash
 </details>
 
 ``` r
-ros2 launch ros2_cpp_template launch_example1.launch.py
+ros2 launch far_jl6_ros2kisbead launch_example1.launch.py
 ```
 
 # Delete this part if you are using it as a template
 
-ROS 2 pacage template, to get started, use template by clicking on the Green button labeled [`Use this template`](https://github.com/sze-info/ros2_cpp_template/generate) / [`Create new repository`](https://github.com/sze-info/ros2_cpp_template/generate). 
+ROS 2 pacage template, to get started, use template by clicking on the Green button labeled [`Use this template`](https://github.com/flevi80/far_jl6_ros2kisbead/generate) / [`Create new repository`](https://github.com/flevi80/far_jl6_ros2kisbead/generate). 
 
 <p align="center"><img src="img/use_this_template01.png" width="60%" /></p>
 
@@ -45,8 +45,8 @@ Let's assume
 
 Replace everything in the cloned repo:
 
-- `ros2_cpp_template` >> `cool_ros2_package` (the folder was already renamed after `Use this template`)
-- `sze-info` >> `mycoolusername`
+- `far_jl6_ros2kisbead` >> `cool_ros2_package` (the folder was already renamed after `Use this template`)
+- `flevi80` >> `mycoolusername`
 - find all `todo` strings and fill the blanks
 
 The easiest way is VS code:

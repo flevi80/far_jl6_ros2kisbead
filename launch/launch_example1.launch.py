@@ -25,7 +25,7 @@ def generate_launch_description():
             ]
         ),
         # Node(
-        #     package='ros2_cpp_template',
+        #     package='far_jl6_ros2kisbead',
         #     executable='simple_sub_node',
         #     output='screen',
         # ),
