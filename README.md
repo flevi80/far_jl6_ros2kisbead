@@ -55,6 +55,8 @@ The easiest way is VS code:
 
 Now `colcon build` your ROS 2 package and you can start wokring.
 
+```mermaid
 graph LR
     A[temp_sensor_node] -->|/temperature<br>sensor_msgs/msg/Temperature| B[temp_monitor_node]
     B -->|/temperature_alarm<br>std_msgs/msg/String| C((Kimenet / Riasztás))
+```
