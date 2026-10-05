@@ -9,6 +9,9 @@ graph LR
     A[temp_sensor_node] -->|/temperature<br>sensor_msgs/msg/Temperature| B[temp_monitor_node]
     B -->|/temperature_alarm<br>std_msgs/msg/String| C((Kimenet / Riasztás))
 ```
+## Működés illusztrációja
+
+![Működés](img/running.png)
 
 
 # `far_jl6_kisbead` package
