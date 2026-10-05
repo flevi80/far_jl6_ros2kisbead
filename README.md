@@ -1,3 +1,16 @@
+# ROS 2 Hőmérséklet-szimulátor és Riasztó Package
+
+Ez a package két node segítségével szimulál egy hőmérséklet-érzékelőt és egy riasztó rendszert.
+
+## Node-ok és Topic-ok viszonya
+
+```mermaid
+graph LR
+    A[temp_sensor_node] -->|/temperature<br>sensor_msgs/msg/Temperature| B[temp_monitor_node]
+    B -->|/temperature_alarm<br>std_msgs/msg/String| C((Kimenet / Riasztás))
+```
+
+
 # `far_jl6_kisbead` package
 ROS 2 C++ package.  [![Static Badge](https://img.shields.io/badge/ROS_2-Humble-34aec5)](https://docs.ros.org/en/humble/)
 ## Packages and build
@@ -55,8 +68,3 @@ The easiest way is VS code:
 
 Now `colcon build` your ROS 2 package and you can start wokring.
 
-```mermaid
-graph LR
-    A[temp_sensor_node] -->|/temperature<br>sensor_msgs/msg/Temperature| B[temp_monitor_node]
-    B -->|/temperature_alarm<br>std_msgs/msg/String| C((Kimenet / Riasztás))
-```
